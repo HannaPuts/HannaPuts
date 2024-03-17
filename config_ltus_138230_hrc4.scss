@@ -1,0 +1,64 @@
+orange
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+3 + orange
+
+const variableName = getRandomNumber();
+
+const reverseString = str => str.split("").reverse().join("");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+83 / 55
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+true / 67,77,14,58,83,26,52,66,86,57,64,86,54,70,80,86,87,87,50,60,11,85,0,72,84,34,63,94,83,74,36,89,16,70,65,33,41,63,21,49,25,54,17,43,41,18,3,23,25,6,30,9,64,78,0,66,47,75,66,76,15,85,48,67,82,60,41,34,39,33,57,25,52,11,8,91,37,44,18,90,31,27,13,80,82,35,84,64,41,48,15,70,55,76,67,43,37,45
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+console.log(getRandomString());
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+76 / grape
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+kiwi
+
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+true / false
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getUniqueValues = array => [...new Set(array)];
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+// This is a comment
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+47,38,90,40,15,31,38,88,93,72,2,96,49,32,63,41,46,67,4,24,23,23,12,49,9,17,12,16,77,20,66,42,61,89,71,85,99,40 - grape
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const formatDate = date => new Date(date).toLocaleDateString();
+87 - false
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const variableName = getRandomNumber();
+const multiply = (a, b) => a * b;
+70 - false
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+function addNumbers(a, b) { return a + b; }
+
