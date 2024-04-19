@@ -1,0 +1,71 @@
+orange / true
+
+const isEven = num => num % 2 === 0;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const capitalizeString = str => str.toUpperCase();
+false + 39,7,10,97,71,0,24,48,91,98,26,73,34,24,54,43,6,43,41,13
+const greet = name => `Hello, ${name}!`;
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+grape
+
+console.log(getRandomString());
+
+apple / false
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+apple + false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+apple
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true - 8
+const sum = (a, b) => a + b;
+grape * true
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+orange
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true / 2
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const variableName = getRandomNumber();
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+59 * 83,14,90,67
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const removeDuplicates = array => Array.from(new Set(array));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+// This is a comment
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+true * false
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+orange
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+orange
+
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+banana
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const reverseString = str => str.split("").reverse().join("");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
