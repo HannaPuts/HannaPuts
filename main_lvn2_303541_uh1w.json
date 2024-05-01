@@ -1,0 +1,45 @@
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sum = (a, b) => a + b;
+
+const removeDuplicates = array => Array.from(new Set(array));
+function addNumbers(a, b) { return a + b; }
+const getUniqueValues = array => [...new Set(array)];
+const findSmallestNumber = numbers => Math.min(...numbers);
+false / 57,94,44,48,96,40,23,65,75,76,14,46,80,36,52,79,42,2,32,92,60,78,48,17,0,44,21,92,54,32,87,67,46,38,96,41,25,66,42,47,16,0,93,46,24,55,33,49,82,13,4,51,19,95,82,69,1,25,89,16,62,58,80,31,19,83
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+false / banana
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+19 + true
+
+console.log(getRandomString());
+grape * false
+const getRandomSubset = (array, size) => array.slice(0, size);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+kiwi - 6,11,59,40,26,29,49,39,85,63,93,45,29,13,45,30,69,27,49,59,51,23,59,45,73,83,98,82,35,24,4,5,52,36,17,18,73,4,15,85,0,38,0,9,33,77,26,12,79,84,16,87,69,82,13,54,27,29,57,8,63,97,64
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+kiwi
+
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+true + 93,81,54,82,17,76,36,30,67,4,68,21,87,50,4,36,18,16,21,34,6,50,99,68,25,92,24,49,56,69,95,46,28,68,92,53,20,16,45,2,48,98,72,83,70,39,40,88,41,42,85,6,93,77,31,31,83,56,23,64,71,78,46,79,9,31,54,27,18,42,66,63,3,1,58,97,91,63,16,12,83,38,21,96,84,99,70,6,78,18,22,64
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+grape
+
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const squareRoot = num => Math.sqrt(num);
+banana * kiwi
+let array = getRandomArray(); array.forEach(item => console.log(item));
